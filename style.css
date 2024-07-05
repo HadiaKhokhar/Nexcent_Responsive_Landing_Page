@@ -1,14 +1,25 @@
 @font-face {
-    font-family: "Roboto Regular";
-    src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf);
+    font-family: "Roboto";
+    src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf     );
 }
 body{
-    font-family: "Roboto Regular";
+    font-family: "Roboto";
+    color: #263238 !important
 }   
 /* Register Button */
 .r-button{
-    background-color: #2194F3;
-    border-radius: 5px;
-    color: white;
+    background-color: #4caf4f;
+    border-radius: 2.78px;
+    color: #fff;
     border: 0px;
+}
+.hero-section{
+    height: 85vh; 
+    background-color: #f5f7fa;
+}
+.example{
+    background-color: antiquewhite;
+}
+.example-2{
+    background-color: rgb(102, 94, 83);
 }
