@@ -1,25 +1,41 @@
 @font-face {
-    font-family: "Roboto";
+    font-family: "Roboto-Medium";
     src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf     );
 }
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(Assests/Fonts/Roboto/Roboto-Regular.ttf     );
+}
 body{
-    font-family: "Roboto";
+    font-family: "Roboto-Medium";
     color: #263238 !important
-}   
-/* Register Button */
+}
+/* HEADER */
+
+/* Navbar */
 .r-button{
     background-color: #4caf4f;
     border-radius: 2.78px;
     color: #fff;
+    font-family: "Roboto-Regular";
+    /* font-size: 10%; */
+    font-size: 1vw;
     border: 0px;
 }
+
+/* Hero Section */
 .hero-section{
-    height: 85vh; 
+    height: 30vw; 
     background-color: #f5f7fa;
 }
-.example{
-    background-color: antiquewhite;
+.hero-section h1,h2{
+    font-size: 5vw !important
 }
-.example-2{
-    background-color: rgb(102, 94, 83);
+.hero-section h2{
+   color: #4caf4f;
 }
+.hero-section p{
+    color: #717171;
+    font: 0.9vw "Roboto-Regular" !important;
+}
+
