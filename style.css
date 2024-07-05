@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(Assests/Fonts/Roboto/Roboto-Medium.ttf);
+}
+body{
+    font-family: "Roboto Regular";
+}   
+/* Register Button */
+.r-button{
+    background-color: #2194F3;
+    border-radius: 5px;
+    color: white;
+    border: 0px;
+}
